@@ -12,6 +12,9 @@ tomlkit = "^0.11.5"
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.20.0"
 
+[tool.poetry.scripts]
+pyproject-sort = "pre_commit_hooks.pyproject_sort:main"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
