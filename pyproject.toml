@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pre-commit-hooks"
-version = "0.1.0"
+version = "0.2.0"
 description = "Random pre-commit hooks that I find useful. Use at your own risk!"
 authors = ["Boris Pfahringer <borpfa@gmail.com>"]
 license = "MIT"
