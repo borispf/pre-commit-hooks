@@ -17,6 +17,19 @@ repos:
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
+        args:
+          - feat
+          - fix
+          - build
+          - chore
+          - ci
+          - docs
+          - perf
+          - refactor
+          - release
+          - revert
+          - style
+          - test
 
   - repo: https://github.com/pre-commit/pre-commit
     rev: v2.20.0
