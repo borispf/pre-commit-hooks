@@ -13,7 +13,7 @@ tomlkit = "^0.11.5"
 pre-commit = "^2.20.0"
 
 [tool.poetry.scripts]
-pyproject-sort = "pre_commit_hooks.pyproject_sort:main"
+sort-pyproject = "pre_commit_hooks.sort_pyproject:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

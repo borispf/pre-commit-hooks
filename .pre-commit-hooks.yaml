@@ -1,7 +1,7 @@
-- id: pyproject-sort
-  name: pyproject-sort
+- id: sort-pyproject
+  name: sort-pyproject
   description: Sort dependencies in pyproject.toml alphabetically.
-  entry: pyproject-sort
+  entry: sort-pyproject
   language: python
   language_version: python3
   files: ^pyproject.toml$
